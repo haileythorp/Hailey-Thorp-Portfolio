@@ -4,4 +4,38 @@
   height: 100vh;
 
   background-image: url("../images/HomeHeader.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-nav {
+  padding-top: 63px;
+  width: auto;
+  text-align: center;
+}
+
+.hero-nav__image {
+  margin: 0 57px;
+  width: 233px;
+  height: 200px;
+  vertical-align: middle;
+}
+
+.hero-nav__link {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 79px;
+}
+
+.hero-nav__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-nav__link::hover a {
+  color: white;
 }
