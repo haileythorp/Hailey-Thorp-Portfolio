@@ -1,6 +1,6 @@
 /* HERO STYLES */
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   background-image: url("../images/HomeHeader.jpg");
@@ -18,24 +18,61 @@
 }
 
 .hero-nav__image {
-  margin: 0 57px;
-  width: 233px;
-  height: 200px;
+  margin: 0 47px;
+  width: 168px;
+  height: 150px;
   vertical-align: middle;
 }
 
 .hero-nav__link {
-  color: white;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 79px;
-}
+  margin: 0 59px;
 
-.hero-nav__link a {
-  color: white;
+  font-family: 'OpenSansSemiBold';
+  font-size: 20px;
   text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 0.1em;
 }
 
-.hero-nav__link::hover a {
-  color: white;
+.hero-nav__link::hover {
+  color: #ffffff;
+}
+
+.hero-title {
+  margin-top: 20vh;
+
+  font-family: 'OpenSansSemiBold';
+  font-size: 46px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.hero-copy {
+  margin-top: 20px;
+
+  font-family: 'OpenSansRegular';
+  font-size: 28px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+/* project list */
+.project-list {
+  columns: 2;
+  width: 100%;
+  column-gap: 0px;
+}
+
+.project-list__item {
+  width: 100%;
+  height: 36vw;
+}
+
+.project-list__item img {
+  width: 100%;
+  height: 100%;
 }
