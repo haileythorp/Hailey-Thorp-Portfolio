@@ -16,45 +16,6 @@
   background-size: cover;
 }
 
-.hero-nav {
-  padding-top: 63px;
-  width: auto;
-  text-align: center;
-}
-
-.hero-nav__image {
-  margin: 0 47px;
-  width: 168px;
-  height: 150px;
-  vertical-align: middle;
-}
-
-.hero-nav__link {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 59px;
-  width: 90px;
-
-  font-family: 'OpenSansSemiBold';
-  font-size: 20px;
-  text-decoration: none;
-  color: #ffffff;
-  letter-spacing: 0.1em;
-}
-
-.hero-nav__link:hover {
-  color: #ffffff;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 20;
-
-  width: 100%;
-}
-
 .text-section {
   padding: 100px;
   color: #707070;
