@@ -1,4 +1,6 @@
 window.onload = function() {
-  $('.picture-slide').slick();
+  $('.picture-slide').slick({
+    dots: true,
+  });
 
 };

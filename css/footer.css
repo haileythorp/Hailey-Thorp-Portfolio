@@ -1,0 +1,40 @@
+/** FOOTER **/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  background-color: #a1a1a1;
+}
+
+.footer__icons {
+  font-size: 34px;
+}
+
+.footer__icons a {
+  margin: 6px;
+  color: #ffffff;
+}
+
+.footer__icons a:visited {
+  color: #ffffff
+}
+
+.footer__copyright {
+  font-size: 18.5px;
+  color: #cacaca;
+  font-family: 'OpenSansRegular';
+  margin-top: 10px;
+}
+
+a.fa-linkedin:hover {
+  color: #0077b5;
+}
+a.fa-pinterest-p:hover {
+  color: #bf001d;
+}
+a.fa-instagram:hover {
+  color: #cd2c78;
+}
+a.fa-tumblr:hover {
+  color: #00324b;
+}
