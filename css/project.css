@@ -1,0 +1,96 @@
+/** color styles **/
+.gray-back {
+  background-color: #ebebeb;
+}
+
+.dark-red-back {
+  background-color: #930b0f;
+}
+
+.magenta-back {
+  background-color: #c31c76;
+}
+
+.light-purple-back {
+  background-color: #d4cbde;
+}
+
+.lone-title, .carousel-title {
+  margin: 70px 0;
+  color: #707070;
+  font-family: 'OpenSansRegular';
+  font-size: 34px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  line-height: 40px;
+}
+
+.slide-container {
+  padding-top: 100px;
+  position: relative;
+}
+.carousel-title {
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 113px);
+  z-index: 2;
+  margin: auto;
+}
+
+.text-section {
+  padding: 100px;
+  color: #707070;
+  font-family: 'OpenSansRegular';
+  font-size: 24.5px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  line-height: 40px;
+}
+
+.text-section h2 {
+  font-size: 34px;
+}
+
+
+.text-section p {
+  margin-top: 40px;
+}
+
+.subhead {
+  font-family: 'OpenSansSemiBold';
+  margin-bottom: 20px;
+}
+
+.full-screen-img {
+  width: 100vw;
+}
+
+.other-project-link {
+  width: 50%;
+  margin: 0;
+  padding: 120px 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.other-project-link span {
+  width: 100%;
+  display: block;
+  font-family: 'OpenSansRegular';
+  font-size: 20px;
+  color: #dddddd;
+}
+
+.other-project-link a {
+  display: block;
+  font-family: 'OpenSansSemiBold';
+  margin-top: 30px;
+  font-size: 34px;
+  color: white;
+}
+
+.other-projects {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
