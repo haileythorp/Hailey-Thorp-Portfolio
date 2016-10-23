@@ -15,6 +15,18 @@
   background-color: #d4cbde;
 }
 
+.teal-back {
+  background-color: #1cbbb4;
+}
+
+.orange-back {
+  background-color: #e56507;
+}
+
+.red-back {
+  background-color: #ec243e;
+}
+
 .lone-title, .carousel-title {
   margin: 70px 0;
   color: #707070;
@@ -29,6 +41,7 @@
   padding-top: 100px;
   position: relative;
 }
+
 .carousel-title {
   position: absolute;
   top: 70px;
@@ -63,6 +76,7 @@
 
 .full-screen-img {
   width: 100vw;
+  margin-bottom: -0.5%;
 }
 
 .other-project-link {
@@ -93,4 +107,21 @@
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.process-document-button {
+  display: inline-block;
+  color: #717070;
+  background-color: transparent;
+  margin-top: 40px;
+  font-family: 'OpenSansSemiBold';
+  font-size: 24.5px;
+  letter-spacing: 0.05em;
+  padding: 8px 28px;
+  border: 3px solid #717070;
+}
+
+.process-document-button:hover {
+  color: #ffffff;
+  background-color: #717070;
 }
