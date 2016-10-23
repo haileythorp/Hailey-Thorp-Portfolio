@@ -10,25 +10,3 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
-.text-columns {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.text-columns div {
-  margin-top: 70px;
-  width: 25%;
-  display: inline-block;
-  text-align: left;
-}
-
-.text-columns h3 {
-  font-size: 24.5px;
-  font-family: 'OpenSansSemiBold';
-}
-
-.text-section .text-columns p {
-  margin-top: 0px;
-}
