@@ -27,6 +27,14 @@
   background-color: #ec243e;
 }
 
+.pink-back {
+  background-color: #efd0e2;
+}
+
+.light-gray-back {
+  background-color: #f0f0f2;
+}
+
 .lone-title, .carousel-title {
   margin: 70px 0;
   color: #707070;
@@ -38,7 +46,7 @@
 }
 
 .slide-container {
-  padding-top: 100px;
+  padding: 100px 0;
   position: relative;
 }
 
