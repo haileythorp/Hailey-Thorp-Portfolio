@@ -1,3 +1,9 @@
 div.picture-slide {
   margin-bottom: 400px;
 }
+
+.picture-slide img {
+  height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
