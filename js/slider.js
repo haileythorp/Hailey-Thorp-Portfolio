@@ -6,14 +6,14 @@ window.onload = function() {
   window.addEventListener( 'scroll', function (e) {
     var top  = window.pageYOffset || document.documentElement.scrollTop;
 
-    if ( top >= window.innerHeight - 80 ) {
+    if ( top >= 10 ) {
       document.querySelector( '.hero-nav' ).className = 'hero-nav sticky is-stuck';
-      document.querySelector( '.hero-nav__image' ).src = './images/BEETLE_LOGO_MEDIUM.png';
+      // document.querySelector( '.hero-nav__image' ).src = './images/BEETLE_LOGO_MEDIUM.png';
 
     } else {
 
       document.querySelector( '.hero-nav' ).className = 'hero-nav sticky';
-      document.querySelector( '.hero-nav__image' ).src = './images/BEETLE_LOGO_LIGHT.png';
+      // document.querySelector( '.hero-nav__image' ).src = './images/BEETLE_LOGO_LIGHT.png';
     }
 
   });
