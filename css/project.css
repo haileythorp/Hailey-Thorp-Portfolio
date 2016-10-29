@@ -88,6 +88,7 @@
 .text-columns h3 {
   font-size: 24.5px;
   font-family: 'OpenSansSemiBold';
+  letter-spacing: 0.1em;
 }
 
 .text-section .text-columns p {

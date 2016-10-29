@@ -76,14 +76,14 @@
   color: inherit;
   font-family: 'OpenSansSemiBold';
   font-size: 34px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .project-list__hover-item p {
   color: inherit;
   font-family: 'OpenSansRegular';
   font-size: 24.5px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .project-list__hover-button {
