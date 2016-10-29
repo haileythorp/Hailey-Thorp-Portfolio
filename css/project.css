@@ -137,6 +137,10 @@
   color: white;
 }
 
+.other-project-link a:hover {
+  color: black;
+}
+
 .other-projects {
   width: 100%;
   margin: 0;
