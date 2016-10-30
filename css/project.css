@@ -39,6 +39,10 @@
   background-color: #f0f0f2;
 }
 
+.art-back {
+  background-color: #d1d3d4;
+}
+
 .lone-title, .carousel-title {
   margin: 70px 0;
   color: #707070;

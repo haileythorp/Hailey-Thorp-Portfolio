@@ -1,9 +1,21 @@
 div.picture-slide {
-  margin-bottom: 400px;
+  margin-bottom: 300px;
 }
 
 .picture-slide img {
   height: 100vh;
   max-width: 100%;
   margin: 0 auto;
+}
+
+.lone-title {
+  margin-top: 0;
+}
+
+.process-document-button {
+  margin-top: 0;
+}
+
+.slick-dots {
+  margin-top: -270px;
 }
