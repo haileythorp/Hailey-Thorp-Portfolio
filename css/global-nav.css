@@ -57,19 +57,19 @@
 }
 
 div.is-stuck {
-  padding: 20px 0;
+  padding: 12px 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .is-stuck .hero-nav__link {
-  margin: 0 30px;
-  width: 90px;
-  font-size: 18px;
+  margin: 0 18px;
+  width: 75px;
+  font-size: 16px;
 }
 
 .is-stuck .hero-nav__image {
-  margin: 0 25px;
-  width: 128px;
+  margin: 0 15px;
+  width: 97px;
 }
 
 .is-stuck .hero-nav__link:hover {
